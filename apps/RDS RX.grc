@@ -3107,10 +3107,10 @@
     </param>
   </block>
   <block>
-    <key>gr_pll_freqdet_cf</key>
+    <key>analog_pll_freqdet_cf</key>
     <param>
       <key>id</key>
-      <value>gr_pll_freqdet_cf_0</value>
+      <value>analog_pll_freqdet_cf_0</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -3214,7 +3214,7 @@
   </connection>
   <connection>
     <source_block_id>fir_filter_xxx_0</source_block_id>
-    <sink_block_id>gr_pll_freqdet_cf_0</sink_block_id>
+    <sink_block_id>analog_pll_freqdet_cf_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -3225,19 +3225,19 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>gr_pll_freqdet_cf_0</source_block_id>
+    <source_block_id>analog_pll_freqdet_cf_0</source_block_id>
     <sink_block_id>fir_filter_xxx_1</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>gr_pll_freqdet_cf_0</source_block_id>
+    <source_block_id>analog_pll_freqdet_cf_0</source_block_id>
     <sink_block_id>fir_filter_xxx_2</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>gr_pll_freqdet_cf_0</source_block_id>
+    <source_block_id>analog_pll_freqdet_cf_0</source_block_id>
     <sink_block_id>fir_filter_xxx_4</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
@@ -3321,7 +3321,7 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>gr_pll_freqdet_cf_0</source_block_id>
+    <source_block_id>analog_pll_freqdet_cf_0</source_block_id>
     <sink_block_id>fir_filter_xxx_3</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
@@ -3471,7 +3471,7 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>gr_pll_freqdet_cf_0</source_block_id>
+    <source_block_id>analog_pll_freqdet_cf_0</source_block_id>
     <sink_block_id>wxgui_fftsink2_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
